@@ -1,7 +1,7 @@
 export default function handler(req, res) {
-  const { num1, num2 } = req.query
+  const { num } = req.query
 
-  const result = parseFloat(num1) * parseFloat(num2)
+  const result = parseFloat(num) * parseFloat(num)
 
   res.status(200).json({ result: `${result}` })
 }
