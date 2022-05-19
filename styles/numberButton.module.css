@@ -1,7 +1,7 @@
 .numberButton{
-    @apply h-14 w-14 bg-slate-400 text-yellow-400 border-none rounded-full mt-2 ml-3;
-    @apply hover:bg-slate-600;
-    @apply active:bg-black;
+    @apply h-14 w-14 bg-slate-500 text-orange-400 border-none rounded-full mt-2 ml-3;
+    @apply hover:bg-slate-700;
+    @apply active:text-white;
 
 }
 
